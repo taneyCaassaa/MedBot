@@ -1,8 +1,7 @@
 flask
 flask-cors
 flask-session
-
-# dotenv
-# langchain
-# openai
-# langchain-community
+dotenv
+langchain
+openai
+langchain-community
