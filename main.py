@@ -126,7 +126,7 @@ Format:
     )
 
     prompt = template.format(info=data)
-    report = llm.predict(prompt)
+    report = llm.invoke(prompt)
     return report
 
 # API endpoints
@@ -620,4 +620,5 @@ if __name__ == "__main__":
 # # if __name__ == "__main__":
 # #     patient_data = collect_patient_data()
 # #     generate_report(patient_data)
+
 
